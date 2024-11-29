@@ -5,10 +5,6 @@
       "DATABASE_URL": "file:./prisma/dev.db"
     }
   },
-  "includeFiles": [
-    "prisma/**",
-    "node_modules/.prisma/**"
-  ],
   "routes": [
     {
       "src": "/(.*)",
@@ -16,3 +12,4 @@
     }
   ]
 }
+
