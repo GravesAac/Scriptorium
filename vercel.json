@@ -5,5 +5,11 @@
       "DATABASE_URL": "file:./prisma/dev.db"
     }
   },
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/"
+    }
+  ]
 }
 
